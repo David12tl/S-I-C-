@@ -1,0 +1,85 @@
+body {
+    background-color: #f0f0f0 !important;
+  }
+  .container {
+    background-color: #fff !important;
+    padding: 20px;
+    border-radius: 10px;
+  }
+  label {
+    display: flex;
+    justify-content: flex-start;
+  }
+  .btn_add {
+    width: 100%;
+    border: 1px solid #1d1f25 !important;
+    background-color: #1d1f25 !important;
+  }
+  .btn_add:hover {
+    opacity: 0.8;
+  }
+  .btn-success {
+    border: 1px solid #1169af !important;
+    background-color: #1169af !important;
+  }
+  hr {
+    height: 0.1px !important;
+    color: #1169af !important;
+    width: 100% !important;
+    background-color: red;
+  }
+  .bi-arrow-right-circle {
+    font-size: 30px;
+  }
+  .titulo_modal {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    color: #444;
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+  }
+  
+  .foto-empleado {
+    width: 200px;
+    height: 300px;
+    border-radius: 0px;
+    object-fit: cover;
+  }
+  
+  th {
+    text-align: start !important;
+  }
+  tr td {
+    text-align: start !important;
+  }
+  /*footer*/
+  .footer{
+    background-color: var(--first-color);
+    height: auto;
+    color: #1d1f25;
+    padding-top: 20px;
+    margin-top: 70px;
+  }
+  .footer-copyright{
+    height: 45px;
+    line-height: 45px;
+    color: #fff;
+    text-align: center;
+    font-size: 17px;
+    background-color: var(--second-color);
+  }
+  .footer-social{
+    cursor: pointer;
+    margin: 0 2px; 
+    transition: all .3s ease-in-out;
+  }
+  .footer-social:hover{ 
+    color: #1169af;
+    transform: scale(1.7);
+  }
+  .pie_de_pagina{
+    background-color: #1d1f25 !important;
+  }
+  
